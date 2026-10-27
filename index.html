@@ -58,37 +58,29 @@ img { max-width: 100%; }
   .hv-item-fila { flex-direction: column; }
   .hv-fechas { text-align: left; }
 }
-.hv-timeline .hv-encabezado { display: flex; align-items: flex-start; gap: 18px; padding: 32px 40px 0; }
-.hv-timeline .hv-foto { width: 96px; height: 96px; object-fit: cover; border-radius: 50%; border: 2px solid #0F766E; }
-.hv-timeline h1 { font-size: 25px; color: #0F766E; }
-.hv-timeline .hv-profesion { font-size: 14px; color: #14B8A6; margin-top: 2px; }
-.hv-timeline .hv-contacto { margin-top: 8px; font-size: 12px; color: #6B7280; }
-.hv-timeline .hv-contacto li { display: inline; }
-.hv-timeline .hv-contacto li + li::before { content: "   \2022   "; white-space: pre; }
-.hv-timeline .hv-contacto b { font-weight: 600; }
-.hv-timeline .hv-regla { height: 2px; background: #14B8A6; margin: 14px 40px 0; }
-.hv-timeline .hv-seccion-titulo { color: #0F766E; border-bottom: 1px solid #E5E7EB; padding-bottom: 4px; }
-.hv-timeline .hv-lista { position: relative; padding-left: 24px; margin-top: 12px; }
-.hv-timeline .hv-lista::before { content: ""; position: absolute; left: 4px; top: 7px; bottom: 5px; width: 2px; background: #E5E7EB; }
-.hv-timeline .hv-lista .hv-item { position: relative; }
-.hv-timeline .hv-lista .hv-item + .hv-item { margin-top: 16px; }
-.hv-timeline .hv-lista .hv-item::before {
-  content: ""; position: absolute; left: -24px; top: 6px;
-  width: 10px; height: 10px; border-radius: 50%; background: #14B8A6;
-}
-.hv-timeline .hv-item-sub, .hv-timeline .hv-fechas, .hv-timeline .hv-meta { color: #6B7280; }
-.hv-timeline .hv-vineta::before { content: "\2022"; color: #14B8A6; }
-.hv-timeline .hv-tabla th { background: #F3F4F6; border-bottom: 1px solid #E5E7EB; }
-.hv-timeline .hv-tabla td { border-bottom: 1px solid #E5E7EB; }
-.hv-timeline .hv-pie { color: #6B7280; border-top: 1px solid #E5E7EB; margin: 0 40px; padding: 10px 0 24px; }
+.hv-clasica .hv-encabezado { display: flex; align-items: flex-start; gap: 18px; padding: 32px 40px 0; }
+.hv-clasica .hv-foto { width: 96px; height: 96px; object-fit: cover; border: 2px solid #1D4ED8; }
+.hv-clasica h1 { font-size: 26px; color: #1D4ED8; }
+.hv-clasica .hv-profesion { font-size: 15px; color: #6B7280; margin-top: 2px; }
+.hv-clasica .hv-contacto { margin-top: 8px; font-size: 12px; color: #6B7280; }
+.hv-clasica .hv-contacto li { display: inline; }
+.hv-clasica .hv-contacto li + li::before { content: "   \2022   "; white-space: pre; }
+.hv-clasica .hv-contacto b { font-weight: 600; }
+.hv-clasica .hv-regla { height: 1.5px; background: #1D4ED8; margin: 14px 40px 0; }
+.hv-clasica .hv-seccion-titulo { color: #1D4ED8; border-bottom: 1px solid #E5E7EB; padding-bottom: 4px; }
+.hv-clasica .hv-item-sub, .hv-clasica .hv-fechas, .hv-clasica .hv-meta { color: #6B7280; }
+.hv-clasica .hv-vineta::before { content: "\2022"; color: #1D4ED8; }
+.hv-clasica .hv-tabla th { background: #F3F4F6; border-bottom: 1px solid #E5E7EB; }
+.hv-clasica .hv-tabla td { border-bottom: 1px solid #E5E7EB; }
+.hv-clasica .hv-pie { color: #6B7280; border-top: 1px solid #E5E7EB; margin: 0 40px; padding: 10px 0 24px; }
 </style>
 </head>
 <body>
-<article class="hv hv-timeline">
+<article class="hv hv-clasica">
 <section class="hv-portada">
 <h2 class="hv-seccion-titulo">Carta de presentación</h2>
 <p>Se&#241;ores:</p>
-<p>Me permito presentar mi candidatura al cargo de Desarrollador Back End en Nacional. Soy ingenier&#237;a de sistemas con 6 a&#241;os de experiencia, con mi paso m&#225;s reciente como Desarrollador WEB en TG Consultores SAS.</p>
+<p>Me permito presentar mi candidatura al cargo de Lider T&#233;cnico. Soy ingeniero de sistemas con  a&#241;os de experiencia, con mi paso m&#225;s reciente como Desarrollador WEB en TG Consultores SAS.</p>
 <p>Estos son algunos de los resultados que respaldan mi postulaci&#243;n:</p>
 <p>• Desarrollo de Aplicaciones: Traducir los requerimientos de calidad del producto estipulados por la gesti&#243;n en criterios t&#233;cnicos ejecutables.
 • Desarrollo de Aplicaciones: Aplicar pautas de calidad interna (basadas usualmente en la serie ISO/IEC 25010) al escribir el c&#243;digo.
@@ -127,7 +119,7 @@ mauricioherpar@gmail.com &#183; 3102015546</p>
 <div class="hv-cuerpo">
 <section class="hv-seccion">
 <h2 class="hv-seccion-titulo">Perfil profesional</h2>
-<p class="hv-perfil">Ingeniero de Sistemas con m&#225;s de 3 a&#241;os de experiencia en dise&#241;o y desarrollo de aplicaciones web escalables y seguras. Especialista en el ecosistema .NET (C#, ASP.NET Core, Entity Framework Core) y en el desarrollo de interfaces din&#225;micas con React.<br />Experto en la implementaci&#243;n de Clean Architecture, principios SOLID y patrones de dise&#241;o para garantizar la alta mantenibilidad, seguridad y eficiencia del software (alineado a est&#225;ndares de calidad como ISO/IEC 25010). Con s&#243;lida experiencia en optimizaci&#243;n de bases de datos relacionales y dise&#241;o de arquitecturas orientadas a servicios (APIs REST).<br />* BASE DE DATOS: SQL server 2026, T-SQL, optimizaci&#243;n de Consultas, SSMS.<br />* Integraciones y Seguridad: RESTful APIs, SOAP, Autenticaci&#243;n JWT, RBAC (Role-Based Access Control).<br />* Herramientas y DevOps: Git/GitHub, Jira, Trello, metodolog&#237;as &#225;giles (Scrum).<br />Logos de Impacto T&#233;cnico:<br />* Optimizaci&#243;n de Arquitectura: Lider&#233; la migraci&#243;n completa de sistemas monol&#237;ticos/legacy hacia clean Architecture, logrando una reducci&#243;n del 35% en la deuda t&#233;cnica y acelerando los tiempos de despliegue<br />* Seguridad de Aplicaciones: Dise&#241;&#233; e implement&#233; esquemas de autenticaci&#243;n y autorizaci&#243;n robustos utilizando ASP.NET Core Identity con roles personalizados, mitigando vulnerabilidades cr&#237;ticas de acceso.<br />* Interoperabilidad: Desarroll&#233; e integr&#233; APIs externas complejas que incrementaron la interoperabilidad de los ERP corporativos en un 43%, optimizando el flujo de datos entre dependencias.<br /> </p>
+<p class="hv-perfil">Ingeniero de Sistemas con experiencia en operaciones, gesti&#243;n administrativa, coordinaci&#243;n de proyectos, automatizaci&#243;n industrial y desarrollo de soluciones tecnol&#243;gicas. Capacidad para liderar iniciativas de mejora continua, transformaci&#243;n digital, optimizaci&#243;n de procesos y modernizaci&#243;n tecnol&#243;gica, integrando la visi&#243;n operativa del negocio con las mejores pr&#225;cticas de ingenier&#237;a de software.<br /> </p>
 </section>
 <section class="hv-seccion">
 <h2 class="hv-seccion-titulo">Experiencia laboral</h2>
@@ -205,6 +197,28 @@ mauricioherpar@gmail.com &#183; 3102015546</p>
 <li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Administraci&#243;n de Compras</span> — Tramite y cierre de las necesidades de Compra para los proyectos</div></li>
 <li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Coordinaci&#243;n de Proyectos</span> — Planeaci&#243;n, Ejecuci&#243;n y Seguimiento del cronograma de Actividades por proyecto y plan de Mantenimiento por &#225;reas de la Planta</div></li>
 <li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Dise&#241;o</span> — Implementaci&#243;n, Dise&#241;o y construcci&#243;n de Tableros de control El&#233;ctrico, manejo de sistemas hidroneum&#225;ticos, Sens&#243;rica</div></li>
+</ul>
+</div>
+<div class="hv-item">
+<div class="hv-item-fila">
+<div>
+<p class="hv-item-titulo">Experiencia en Operaciones, Compras y gesti&#243;n Administrativa(2008-2020)</p>
+<p class="hv-item-sub">Experiencia Agrupada</p>
+</div>
+<div class="hv-fechas">
+<div>Ene. 2008 – Ene. 2020</div>
+<div>12 a&#241;os</div>
+</div>
+</div>
+<p class="hv-meta">Área: Ciencias naturales, aplicadas y relacionales</p>
+<ul class="hv-logros">
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Gesti&#243;n de Compras Nacionales e Internacionales</span> — Gestti&#243;n completa del ciclo de compras de inicio a fin</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Planeaci&#243;n y control de inventarios</span> — Elaboraci&#243;n del plan de trabajo y levantamiento de inventarios</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Seguimiento presupuestal</span> — Elaboraci&#243;n de Presupuestos y APU&#39;s para la gesti&#243;n de proyectos</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Cordinaci&#243;n de Personal operativo</span> — Elaboraci&#243;n de plan de trabajo y cronogramas para le ejecuci&#243;n de labores</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Indicadores de Gesti&#243;n</span> — Elaboraci&#243;n y seguimiento de indicadores de gesti&#243;n asi como las mediciones de los mismos</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Mantenimiento y Operaciones</span> — Apoyo a proyectos de mantenimiento y operaci&#243;n</div></li>
+<li><span class="hv-vineta"></span><div><span class="hv-logro-nombre">Negociaci&#243;n con proveedores</span> — Gesti&#243;n de Cuadros comparativos y cotizaciones, ordenes de compra y servicios</div></li>
 </ul>
 </div>
 </div>
@@ -306,13 +320,13 @@ mauricioherpar@gmail.com &#183; 3102015546</p>
 </section>
 </div>
 <footer class="hv-pie">
-<span>Generado el 08 de octubre de 2026</span>
+<span>Generado el 26 de octubre de 2026</span>
 <span>Mauricio Hern&#225;ndez Pardo</span>
 </footer>
 </article>
 
 <!-- Visual Studio Browser Link -->
-<script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="31f1b4348a01466e8bfb483094661156" data-requestMappingFromServer="false" data-connectUrl="http://localhost:60330/ce1db6d1e1224186b266d23ba003302a/browserLink"></script>
+<script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="4df7c6cd2ae640b3b113a8b4152690fe" data-requestMappingFromServer="false" data-connectUrl="http://localhost:61252/2248519063a74590b3df42d7d854d271/browserLink"></script>
 <!-- End Browser Link -->
 <script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
 </html>
